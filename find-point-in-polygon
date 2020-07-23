@@ -11,9 +11,7 @@ var userlocation = [71.47876, 30.20137 ];
 
 
 function inside(point, vs) {
-    // ray-casting algorithm based on
-    // https://wrf.ecse.rpi.edu/Research/Short_Notes/pnpoly.html/pnpoly.html
-    
+   
     var x = point[0], y = point[1];
     
     var inside = false;
