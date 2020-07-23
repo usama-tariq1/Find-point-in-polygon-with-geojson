@@ -30,12 +30,6 @@ function inside(point, vs) {
 };
 
 
-   /*  var arr = new Array();
-    for(var i = 0; i < areas.features.length; i++){
-        arr.push(areas.features[i].id)
-    }    
-    
-    console.log(arr);    */         
 
 var feature  = areas.features[0]
 var coordinates = feature.geometry.coordinates[0]
@@ -43,7 +37,6 @@ var coordinates = feature.geometry.coordinates[0]
 
 
 
-/* console.log(coordinates) */
 
  console.log(inside(userlocation , coordinates )) 
 
